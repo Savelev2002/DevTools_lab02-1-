@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Savelev2002.PowerCollections</id>
+    <version>0.0.4-beta</version>
+    <authors>PowerCollections</authors>
+    <description>Package Description</description>
+    <repository url="https://github.com/Savelev2002/DevTools_lab02.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\bin\Debug\netstandard2.1\PowerCollections.dll" target="lib\netstandard2.1\PowerCollections.dll" />
+  </files>
+</package>

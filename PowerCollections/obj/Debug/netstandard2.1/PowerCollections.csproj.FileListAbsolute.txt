@@ -1,0 +1,8 @@
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\bin\Debug\netstandard2.1\PowerCollections.deps.json
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\bin\Debug\netstandard2.1\PowerCollections.dll
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\bin\Debug\netstandard2.1\PowerCollections.pdb
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\obj\Debug\netstandard2.1\PowerCollections.csproj.AssemblyReference.cache
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\obj\Debug\netstandard2.1\PowerCollections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\obj\Debug\netstandard2.1\PowerCollections.csproj.CoreCompileInputs.cache
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\obj\Debug\netstandard2.1\PowerCollections.dll
+D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections\obj\Debug\netstandard2.1\PowerCollections.pdb
