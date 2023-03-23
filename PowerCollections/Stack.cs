@@ -8,7 +8,7 @@ namespace PowerCollections
     public class Stack<T> : IEnumerable  
     {
         public T[] arr;
-        public int Count; //Count - текущее число элементов в стеке
+        public int Countt; //Count - текущее число элементов в стеке
         public int Capacity; //Capacity - максимальный размер стека
         public T[] arr2;
 
