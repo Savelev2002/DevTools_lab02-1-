@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--При вызове MSBuild происходит следующее. 
+MSBuild считывает файл проекта, разбирает его и выполняет цели, 
+указанные в атрибуте DefaultTargets тега Project:-->
+
+
+<!--MSBuildProjectDirectory - Полный путь к каталогу проекта.-->
+
+<Project 
+    ToolsVersion="15.0"  
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+    DefaultTargets="Build" >
+
+    <Import Project="D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+
+    <PropertyGroup>
+    <AddSourceCode>true</AddSourceCode>
+    <IgnoreTestsResults>true</IgnoreTestsResults>
+    <Configuration>Debug</Configuration>
+    </PropertyGroup>
+
+
+     <!--Запуск теста, Сборка пакета, создание документации, копирование файлов, zip-->
+     <Target Name="Build" > 
+
+    
+            <!--Выполняем тесты-->
+            <Exec   WorkingDirectory = "D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\PowerCollections.Tests"  
+            Command = "dotnet test" 
+            ContinueOnError = "$(IgnoreTestsResults)" /> 
+
+            <!--Собирам пакет-->
+            <Exec WorkingDirectory = "$(MSBuildProjectDirectory)" Command = "dotnet pack"></Exec>
+
+           
+            <!--Собирам документацию-->
+             <Exec WorkingDirectory = "D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\docfx_project" 
+                Command = "docfx build"></Exec> 
+
+           
+           <ItemGroup>
+                <Docs Include="docfx_project\_site\**\*.*" />
+                <SourceCode Include="PowerCollections\**"
+                Exclude="PowerCollections\bin\**;PowerCollections\obj\**;PowerCollections\.vs\**"
+                Condition="$(AddSourceCode) == 'true'"
+                />
+            </ItemGroup>
+
+             <!--Номер сборки-->
+            <Version VersionFile="version.txt" BuildType="Increment" RevisionType="None">
+                <Output TaskParameter="Major" PropertyName="Major" />
+                <Output TaskParameter="Minor" PropertyName="Minor" />
+                <Output TaskParameter="Build" PropertyName="Build" />
+            </Version>
+
+            <PropertyGroup>
+                <PackDirectory>Product_$([System.DateTime]::Now.ToString(yyyyMMdd))_$(Major).$(Minor).$(Build)</PackDirectory>                
+            </PropertyGroup>
+
+            
+
+            <!--Копируем все файлы-->
+           <Copy SourceFiles = "$(MSBuildProjectDirectory)\PowerCollections\bin\Debug\Savelev2002.PowerCollections.0.0.4-beta.nupkg" DestinationFolder = "D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\$(PackDirectory)\bin" />
+           <Copy SourceFiles = "@(Docs)" DestinationFolder = "D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\$(PackDirectory)\doc" />  
+           <Copy SourceFiles="@(SourceCode)" DestinationFolder="D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\$(PackDirectory)\src" Condition="$(AddSourceCode) == 'true'"/>
+           
+          <!--Формируем zip-->
+             <ZipDirectory 
+                SourceDirectory="$(PackDirectory)" 
+                Overwrite="true" 
+                DestinationFile="D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\$(PackDirectory).zip" 
+            />
+
+            <!--Удаляем файл-->
+            <RemoveDir Directories="D:\Домашняя работа\Курс_4\ИСРПО\Лаба_2\DevTools_lab02\PowerCollections\$(PackDirectory)" />
+
+    </Target>
+
+</Project>
+
+
+
