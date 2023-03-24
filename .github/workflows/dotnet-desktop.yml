@@ -75,17 +75,17 @@ jobs:
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test
-      working-directory: "PowerCollections"
+      
       
        # dotnet build
     - name: Execute dotnet build
       run: dotnet build
-      working-directory: "PowerCollections"
+      
 
    # dotnet pack
     - name: Execute dotnet pack
       run: dotnet pack
-      working-directory: "PowerCollections"
+      
 
   
  
