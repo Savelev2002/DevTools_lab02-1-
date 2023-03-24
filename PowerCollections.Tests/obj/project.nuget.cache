@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pVo5wUZFn8xnBMVNAOozURWPKT/gq6cCap3cxNaHXFPSiB/nal+Q3g7MNxCAv2zhaqp/IyvI3BBTm2Qq9Kk8IQ==",
+  "dgSpecHash": "31zJbe+ZhuyoKFy5i1RLe+I3dyReokbk7/mu+6XnLOFqxCAY0bXDN19WJR3b0y0mnF8+I35jaxhHEgoMYWXhgg==",
   "success": true,
-  "projectFilePath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
+  "projectFilePath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asave\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\asave\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

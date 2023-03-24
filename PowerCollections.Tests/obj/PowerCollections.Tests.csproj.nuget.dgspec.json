@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj": {}
+    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj": {
+    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
+        "projectUniqueName": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
         "projectName": "PowerCollections.Tests",
-        "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
+        "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\PowerCollections.Tests.csproj",
         "packagesPath": "C:\\Users\\asave\\.nuget\\packages\\",
-        "outputPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections.Tests\\obj\\",
+        "outputPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\PowerCollections.csproj": {
-                "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\PowerCollections.csproj"
+              "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\PowerCollections.csproj": {
+                "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\PowerCollections.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\PowerCollections.csproj": {
-      "version": "0.0.4-beta",
+    "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\PowerCollections.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\PowerCollections.csproj",
-        "projectName": "Savelev2002.PowerCollections",
-        "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\PowerCollections.csproj",
+        "projectUniqueName": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\PowerCollections.csproj",
+        "projectName": "PowerCollections",
+        "projectPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\PowerCollections.csproj",
         "packagesPath": "C:\\Users\\asave\\.nuget\\packages\\",
-        "outputPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_2\\DevTools_lab02\\PowerCollections\\PowerCollections\\obj\\",
+        "outputPath": "D:\\Домашняя работа\\Курс_4\\ИСРПО\\Лаба_1\\Текущий_проект\\DevTools_lab01 — копия\\PowerCollections\\PowerCollections\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
